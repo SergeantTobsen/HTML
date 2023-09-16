@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+
+    
+    <h1>Registration Form</h1>
+    
+    </header>
+    <form>
+        <label for="firstname">firstname:</label>
+        <input type="text" name="firstname" placeholder="insert name" id="firstname">
+    
+    <br>
+    <br>
+    <div>
+        <label for="lastname">lastname:</label>
+        <input type="text" name="lastname" placeholder="insert lastname" id="lastname">
+    </div>
+    <br>
+    <div>
+        <label for="hometown" >Select your hometown:</label>
+
+        <select id="hometown"  name="hometown">
+
+            <option value="Vienna" >Vienna</option>
+
+            <option value="Graz"  selected>Graz</option>
+
+            <option value="Salzburg" >Salzburg</option>
+
+            <option value="linz" >Linz</option>
+            </select>
+        </div>
+    <br>
+    <div>
+        <label>Gender:</label>
+        <p>
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="male">
+   
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female">
+    
+        <label for="other">other</label>
+        <input type="radio" name="gender" id="other">
+    </p>
+    </div>
+    <div><p>
+<label>Allergien:</label>
+</p>
+<p>
+<label for="gluten">Gluten</label>
+<input type="checkbox" name="gluten" id="gluten">
+    </p>
+<p>
+<label for="pollen">Pollen</label>
+<input type="checkbox" name="pollen" id="pollen">
+    </p>
+
+<label for="Gräser">Gräser</label>
+<input type="checkbox" name="gluten" id="Gräser">
+    </p>
+</div>
+    <p>
+        <label for="phone">phonenumber:</label>
+<input type="number" type="tel" name="phone" id="phone">
+</p>
+<div>
+    <label>persönliche beschreibung:</label>
+</div>
+<div>
+    <textarea name="persönliches" id="persönliches" cols="30" rows="10" placeholder="hier könnte Ihre Werbung stehen"></textarea>
+</div>
+<div>
+    <label for="email">E-Mail Adresse:</label>
+    <input type="email" name="email" id="email">
+</div>
+<br>
+<div>
+    <label for="password">Passwort:</label>
+    <input type="password" name="password" id="password">
+</div>
+<br>
+<div>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</div>
+    </form>
+</body>
+</html>
